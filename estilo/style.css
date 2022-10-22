@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding: 0px;
+}
+
+html, body {
+    display: block;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0A0C10;
+}
+
+div#body {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    margin: 16px;
+    margin: auto;
+    padding: 32px;
+    width: 1184px;
+    border-radius: 6px;
+    border: 1px solid rgb(122, 130, 142);
+    text-size-adjust: 100%;
+}
+
+header, main {
+    background-color: #0A0C10;
+    margin: auto;
+    width: 1012px;
+}
+
+#banner {
+    max-width: 100%;
+    width: 100%;
+}
+
+h1 {
+    padding-bottom: .3em;
+    font-size: 2em;
+    margin-bottom: 16px;
+    border-bottom:  1px solid rgb(122, 130, 142);
+    box-sizing: border-box;
+}
+
+h2 {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    padding-bottom: 7.2px;
+    font-weight: 600;;
+    border-bottom: 1px solid rgb(122, 130, 142);
+    margin-block-end: 16px;
+    margin-block-start: 24px;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 600;
+    font-size: 1.25em;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 16px;
+}
+
+ul {
+    margin-block-end: 16px;
+    padding-inline-start: 32px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+
+li {
+    box-sizing: border-box;
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+img#et {
+    display: block;
+    float: right;
+    max-width: 100%;
+    padding: 0px;
+    padding-left: 20px;
+    width: 295px;
+    background-color: rgb(10, 12, 16);
+    vertical-align: top;
+
+}
+
+a {
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(113, 183, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    box-sizing: content-box;
+    display: block;
+    height: 4px;
+    margin-bottom: 24px;
+    overflow: 0px;
+    padding: 0px;
+    color: rgb(240, 243, 246);
+    background-color: rgb(122, 130, 142);
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border: 0px;
+}
