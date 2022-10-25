@@ -42,7 +42,7 @@ header, main , footer{
     background-color: #0A0C10;
     margin: 16px;
     margin: auto;
-    min-width: 600px;
+    min-width: 500px;
 }
 
 #banner {
