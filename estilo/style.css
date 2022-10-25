@@ -4,6 +4,7 @@
 * {
     font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 0px;
+    line-height: 25px;
 }
 
 html, body {
@@ -11,7 +12,17 @@ html, body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background-color: #0A0C10;
+}
+
+html {
+    background-image: url(https://github.com/M0rdek4y/Repositorio-de-midia/blob/master/media/images/gif/hacking.gif?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: #ffffff31;
+    padding-bottom: 20px;
 }
 
 div#body {
@@ -21,16 +32,17 @@ div#body {
     margin: 16px;
     margin: auto;
     padding: 32px;
-    width: 1184px;
+    max-width: 1184px;
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
-    text-size-adjust: 100%;
+    background-color: #0A0C10;
 }
 
-header, main {
+header, main , footer{
     background-color: #0A0C10;
+    margin: 16px;
     margin: auto;
-    width: 1012px;
+    min-width: 600px;
 }
 
 #banner {
@@ -39,6 +51,7 @@ header, main {
 }
 
 h1 {
+    line-height: 40px;
     padding-bottom: .3em;
     font-size: 2em;
     margin-bottom: 16px;
@@ -47,15 +60,12 @@ h1 {
 }
 
 h2 {
-    box-sizing: border-box;
-    display: block;
+    line-height: 30px;
     margin-bottom: 16px;
-    margin-top: 24px;
+    margin-top: 44px;
     padding-bottom: 7.2px;
-    font-weight: 600;;
+    font-weight: 600px;
     border-bottom: 1px solid rgb(122, 130, 142);
-    margin-block-end: 16px;
-    margin-block-start: 24px;
 }
 
 h3 {
@@ -70,12 +80,7 @@ h3 {
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-bottom: 16px;
+    text-align: justify;
 }
 
 ul {
@@ -92,14 +97,12 @@ li {
 }
 
 img#et {
-    display: block;
     float: right;
     max-width: 100%;
-    padding: 0px;
+    padding-top: 50px;
     padding-left: 20px;
-    width: 295px;
+    width: 300px;
     background-color: rgb(10, 12, 16);
-    vertical-align: top;
 
 }
 
@@ -127,4 +130,18 @@ hr {
     background-clip: border-box;
     background-attachment: scroll;
     border: 0px;
+}
+
+footer {
+    line-height: 0px;
+}
+
+footer > p{
+    text-align: center;
+    margin: 0%;
+
+}
+
+footer > p#namefooter {
+    font-size: smaller;
 }
