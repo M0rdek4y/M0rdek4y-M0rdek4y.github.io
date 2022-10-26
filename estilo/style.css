@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    min-width: 100%;
+    min-width: 600px;
     background-color: #ffffff31;
     padding-bottom: 20px;
 }
@@ -30,7 +30,11 @@ div#body {
     margin: auto;
     padding: 32px;
     max-width: 1184px;
+<<<<<<< HEAD
     min-width: 300px;
+=======
+    min-width: 500px;
+>>>>>>> parent of 14207b7 (Update)
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
     background-color: #0A0C10;
@@ -45,7 +49,7 @@ header, main , footer{
 
 #banner {
     max-width: 100%;
-    min-width: none;
+    width: 100%;
 }
 
 h1 {
@@ -67,6 +71,7 @@ h2 {
 }
 
 h3 {
+    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -75,7 +80,6 @@ h3 {
     font-size: 1.25em;
 
 }
-
 
 p {
     text-align: justify;
@@ -94,11 +98,12 @@ li {
     font-weight: 400;
 }
 
-#et {
+img#et {
     float: right;
-    max-width: 26%;
+    max-width: 100%;
     padding-top: 50px;
     padding-left: 20px;
+    width: 300px;
     background-color: rgb(10, 12, 16);
 
 }
@@ -139,6 +144,6 @@ footer > p{
 
 }
 
-.namefooter {
-    font-size: .8em;
+footer > p#namefooter {
+    font-size: smaller;
 }
