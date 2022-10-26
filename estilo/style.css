@@ -21,18 +21,16 @@ html {
 }
 
 body {
+    min-width: 600px;
     background-color: #ffffff31;
     padding-bottom: 20px;
 }
 
 div#body {
-    box-sizing: border-box;
-    display: block;
-    position: relative;
     margin: auto;
     padding: 32px;
     max-width: 1184px;
-    min-width: 600px;
+    min-width: 500px;
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
     background-color: #0A0C10;
