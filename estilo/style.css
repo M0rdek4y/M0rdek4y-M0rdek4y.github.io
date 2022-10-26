@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    min-width: 600px;
+    min-width: 100%;
     background-color: #ffffff31;
     padding-bottom: 20px;
 }
@@ -30,7 +30,7 @@ div#body {
     margin: auto;
     padding: 32px;
     max-width: 1184px;
-    min-width: 500px;
+    min-width: 400px;
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
     background-color: #0A0C10;
@@ -45,7 +45,7 @@ header, main , footer{
 
 #banner {
     max-width: 100%;
-    width: 100%;
+    min-width: none;
 }
 
 h1 {
@@ -67,7 +67,6 @@ h2 {
 }
 
 h3 {
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -76,6 +75,7 @@ h3 {
     font-size: 1.25em;
 
 }
+
 
 p {
     text-align: justify;
@@ -94,12 +94,11 @@ li {
     font-weight: 400;
 }
 
-img#et {
+#et {
     float: right;
-    max-width: 100%;
+    max-width: 26%;
     padding-top: 50px;
     padding-left: 20px;
-    width: 300px;
     background-color: rgb(10, 12, 16);
 
 }
@@ -140,6 +139,6 @@ footer > p{
 
 }
 
-footer > p#namefooter {
-    font-size: smaller;
+.namefooter {
+    font-size: .8em;
 }
