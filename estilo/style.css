@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    min-width: 600px;
+    min-width: 100%;
     background-color: #ffffff31;
     padding-bottom: 20px;
 }
@@ -30,11 +30,7 @@ div#body {
     margin: auto;
     padding: 32px;
     max-width: 1184px;
-<<<<<<< HEAD
     min-width: 300px;
-=======
-    min-width: 500px;
->>>>>>> parent of 14207b7 (Update)
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
     background-color: #0A0C10;
@@ -49,7 +45,6 @@ header, main , footer{
 
 #banner {
     max-width: 100%;
-    width: 100%;
 }
 
 h1 {
@@ -100,7 +95,7 @@ li {
 
 img#et {
     float: right;
-    max-width: 100%;
+    max-width: 26%;
     padding-top: 50px;
     padding-left: 20px;
     width: 300px;
@@ -144,6 +139,6 @@ footer > p{
 
 }
 
-footer > p#namefooter {
-    font-size: smaller;
+.namefooter {
+    font-size: .8em;
 }
