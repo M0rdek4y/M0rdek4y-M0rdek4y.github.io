@@ -29,10 +29,10 @@ div#body {
     box-sizing: border-box;
     display: block;
     position: relative;
-    margin: 16px;
     margin: auto;
     padding: 32px;
     max-width: 1184px;
+    min-width: 600px;
     border-radius: 6px;
     border: 1px solid rgb(122, 130, 142);
     background-color: #0A0C10;
@@ -42,7 +42,7 @@ header, main , footer{
     background-color: #0A0C10;
     margin: 16px;
     margin: auto;
-    min-width: 500px;
+
 }
 
 #banner {
