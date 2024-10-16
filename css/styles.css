@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
 /* GENERAL */
 * {
     padding: 0;
@@ -106,11 +108,32 @@
 #social-container li {
     flex: 1 1 0;
     max-width: 60px;
+    transition: transform .5s ease;
 }
 
 #social-container li a {
     color: var(--main-color-green);
     font-size: 30px;
+}
+
+#social-container li:hover,
+#social-container li:hover #comment {
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px var(--main-color-pink));
+    transition: 1.2;
+    color: var(--main-color-green);
+}
+
+
+#comment {
+    color: #9d9d9d;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 7px;
+    transition: color .5s;
 }
 
 /* alinhar icone */
@@ -228,6 +251,18 @@
 
 #border-white {
     color: rgb(116, 116, 116);
+}
+
+#ps-color {
+    color: #2DA9FF;
+}
+
+#after-color {
+    color: #4707ae;
+}
+
+#premiere-color {
+    color: #7e04f8;
 }
 
 /* Mobile */
